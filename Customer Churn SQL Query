@@ -46,7 +46,7 @@ GROUP BY ch.churn_label;
 GO
 
 
--- What are the top 10 cities with the highest churn rates? 
+-- What are the top 10 cities with the highest churn rates?Â 
 SELECT TOP 10 c.city,
 		COUNT(ch.churnID) AS 'Churned',
 		CEILING(COUNT(CASE 

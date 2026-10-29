@@ -1,5 +1,5 @@
-USE [CIS5630-Twum-FinalProject];
-GO
+--USE [DatabaseName];
+--GO
 
 SELECT COUNT(customerID) AS "Total Customers"
 FROM customer;
